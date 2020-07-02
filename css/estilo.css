@@ -1,20 +1,23 @@
+body{
+    color: white;
+}
+
 .container-fluid{
     background-color: rgb(255, 127, 80);
 }
 
-#navbarMenu{
-    background-color: cadetblue;
-
+.navbar{
+    background-color: rgb(80, 160, 215);
 }
 
-#navbarTopo{
-    background-color: cadetblue;
-    color: cyan;
-
+.navbar .nav-item a{
+    color: white !important;
+    font-weight: bold;
+    font-style: italic;
 }
 
-.navbar-dark.navbarTopo{
-    color: cyan;
+.navbar .nav-item a:hover{
+    color: black !important;
 }
 
 .classtopo{
@@ -24,4 +27,10 @@
 
 .classtopo:hover{
     text-decoration: none;
+    color: black !important;
+
+}
+
+.list-group-item .list-group-item-info{
+    background-color: rgb(80, 160, 215);
 }
