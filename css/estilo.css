@@ -1,0 +1,27 @@
+.container-fluid{
+    background-color: rgb(255, 127, 80);
+}
+
+#navbarMenu{
+    background-color: cadetblue;
+
+}
+
+#navbarTopo{
+    background-color: cadetblue;
+    color: cyan;
+
+}
+
+.navbar-dark.navbarTopo{
+    color: cyan;
+}
+
+.classtopo{
+    text-decoration: none;
+    color: white;
+}
+
+.classtopo:hover{
+    text-decoration: none;
+}
