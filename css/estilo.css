@@ -25,15 +25,21 @@ body{
     color: black !important;
 }
 
-#aTopo{
-    color: white;
-    text-decoration: none;
-
+hr{
+    clear: right;
+    height:2px;
+    color:white;
+    background-color:white;
 }
 
-#aTopo:hover{
-    color: black;
-    text-decoration: none;
+
+#imgTopo{
+    width: 87px;
+    height: 40px;
+}
+
+#imgTopo:hover{
+    background-color: rgb(80, 160, 215);
 }
 
 #aBar{
@@ -57,11 +63,6 @@ body{
     
     text-decoration: none;
     cursor: not-allowed;
-}
-
-#imgTopo{
-    width: 40px;
-    height: 40px;
 }
 
 .list-group-item{
