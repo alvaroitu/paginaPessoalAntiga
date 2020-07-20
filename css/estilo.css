@@ -32,7 +32,6 @@ hr{
     background-color:white;
 }
 
-
 #imgTopo{
     width: 87px;
     height: 40px;
@@ -40,6 +39,12 @@ hr{
 
 #imgTopo:hover{
     background-color: rgb(80, 160, 215);
+}
+
+.float-sm-right{
+    position: sticky;
+    top: 0px;
+    z-index: 2;
 }
 
 #aBar{
