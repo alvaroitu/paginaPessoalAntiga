@@ -32,6 +32,14 @@ hr{
     background-color:white;
 }
 
+#alvaroitulogo{
+    width: 250px;
+}
+
+#alvaroitutexto{
+    width: 400px;
+}
+
 #imgTopo{
     width: 87px;
     height: 40px;
